@@ -1,4 +1,4 @@
-$ Hybrid Language Model
+# Hybrid Language Model
 This repository contains code for building a hybrid language model from scratch using TensorFlow. The hybrid model combines a recurrent neural network (RNN) with a transformer model to model the dependencies between words and sentences in a text dataset.
 
 ## Requirements
@@ -19,7 +19,7 @@ This script collects text data from a website, extracts the text from the HTML p
 2.Build the hybrid model by running the `build_model.py` script:
 ```c
 python build_model.py
-``
+```
 This script defines the hybrid model architecture, which consists of an embedding layer, an LSTM RNN layer, a transformer layer, and a dense output layer. It also defines the input and output shapes of the model.
 
 3.Train the model by running the `train_model.py` script:
